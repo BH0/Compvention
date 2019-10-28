@@ -1,0 +1,17 @@
+{
+  "name": "Compvention",
+  "version": "1.0.0",
+  "description": "Geenerate a React component via the command line. ",
+  "main": "src/cli.js",
+  "scripts": {
+    "start": "node bin/cli.js",
+    "comp-gen": "node bin/cli.js"
+  },
+  "bin": {
+    "cli": "./bin/cli.js"
+  },
+  "dependencies": {
+    "commander": "3.0.2"
+  }
+}
+
